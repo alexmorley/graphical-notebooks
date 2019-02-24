@@ -1,0 +1,4 @@
+- [ ] Copy Rest of handwritten notes
+- [ ] Copy OPF application into new file
+- [ ] Add link to this in OPF application
+- [ ] Copy Rough sketches from ipad
