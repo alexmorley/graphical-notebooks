@@ -12,8 +12,6 @@ Through personal experience, and observations of wider usage patterns of Jupyter
 
 Many of the concepts here are well validated in current / past software, the next section discusses some of this prior art as well as the goals underlying other work on the Jupyter UI.
 
-Part of the reason behind the success of Jupyter notebooks in data science applications has been their … at bringing code and visualisations closer together, thus allowing users to keep the operations that are performed on data closer to the representation of the results itself. This was a .. step forward in data science UI in general. However, we have observed that usage patterns of the software reveal that there is still plenty of room for getting even closer to user’s model of data analytical process. We propose a new interface for the Jupyter and related notebook back-ends that borrows concepts from graphical programming languages, version control, staged builds and continuous deployment systems.
-
 ## Prior Art
 ### Visual Programming
 [Wiki page](https://en.wikipedia.org/wiki/Visual_programming_language)
@@ -42,3 +40,5 @@ Part of the reason behind the success of Jupyter notebooks in data science appli
 [Graph Rewriting](https://en.wikipedia.org/wiki/Graph_rewriting)
 
 [On Weaponised Design](https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design/)
+
+
