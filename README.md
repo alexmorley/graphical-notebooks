@@ -35,11 +35,65 @@ Many of the concepts here are well validated in current / past software, the nex
 
 
 ### Other directions for improving notebook interfaces
+[JupyterLab](https://www.google.com/search?client=ubuntu&channel=fs&q=jupyterlab&ie=utf-8&oe=utf-8) - Desktop environment in the browser
+
+[Collab](https://colab.research.google.com/) - Easy connection to cheap/free cloud compute resources inluding GPU support.
+
+[Wrattler](https://www.usenix.org/system/files/conference/tapp2018/tapp2018-paper-petricek.pdf) - Data Dependency graph allowing polyglot notebooks and cacheable cells.
+
+## Proposed Interface
+![Sketch](design/ideas1.png)
+<details><summary>- Branching Paths:</summary>
+reflecting the generally non-linear flow of exploratory analysis and testing
+</details>
+
+<details><summary>- Hierarchical Modularity:</summary>
+Allow collapsing and grouping of cells for organisation. Indeed, whole notebooks can be included as one unit of computation in another notebook using this framework.
+</details>
+<details><summary>- Modularity II:</summary>
+Allow naming and documenting to be explicitly linked to code cells. Allow decoration of code cells for easy recognition while they are collapsed.
+</details>
+<details><summary>- Horizontal (left to right * ) progression model:</summary>
+Take advantage of modern widescreen hardware, and the natural reading pattern to specify workflows that flow across the screen, with branches being represented by vertical splits. * or right to left depending on locale
+</details>
+
+## Process and Design Principles
+### Accessibility
+- Ease of sharing
+- First-Class support for Offline / Limited Connectivity scenarios
+
+### User Centered
+- Always aiming to reflect mental model that people already have.
+- Finding current pain points in notebook use.
+- Get user feedback early (from now) and often.
 
 
-### Misc Notes
+## Engeneering Considerations
+### Back-ends
+- In the browser (pyodide et al. - other languages that compile to js/wasm)
+- Jupyter backend/kernel 
+- Just one (would have to be jupyter) or consider both from the start and allow switching - this will affect some of the deicisions below.
+
+### How to fork / branch?
+Simplest implementation is to run from start until the branch point then update cells on the new branch after the branch point only when selected.
+- Communication between branches: No they should be independent
+- Threads vs. Seperate instances: Seperate instances for backend to start. In browser should be sandboxed as well.
+- Copy memory vs Run from start: Run from start for now. Copy could be implemented later on as an optimization.
+- *Where* is the logic implemented: Front-end? Will work for iodide and jupyter. Back-end? Easier and maybe more powerful, + will need *some* backend logic for jupyter either way.
+
+### Misc
+- Native or web-only: Web only to start with. Fast response times to all user interactions still a priority though. Use native HTML elements where possible.
+
+## Management / Process and Relationships with other Organisations and Stakefolders
+Key stakeholders:
+- Mozilla & Helmsley Charitable Trust (Alex's funders)
+- Jupyter (current developers of notebooks)
+
+- When to engage with each stakeholders?
+- How to keep everyone updated on progress?
+- How to get support without burdening stakeholders as well as give support where possible?
+
+## Misc Notes
 [Graph Rewriting](https://en.wikipedia.org/wiki/Graph_rewriting)
 
 [On Weaponised Design](https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design/)
-
-
