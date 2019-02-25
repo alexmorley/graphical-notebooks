@@ -42,18 +42,19 @@ Many of the concepts here are well validated in current / past software, the nex
 [Wrattler](https://www.usenix.org/system/files/conference/tapp2018/tapp2018-paper-petricek.pdf) - Data Dependency graph allowing polyglot notebooks and cacheable cells.
 
 ## Proposed Interface
+TODO: update this with figma designs
 ![Sketch](design/ideas1.png)
-<details><summary>- Branching Paths:</summary>
+<details><summary>Branching Paths:</summary>
 reflecting the generally non-linear flow of exploratory analysis and testing
 </details>
 
-<details><summary>- Hierarchical Modularity:</summary>
+<details><summary>Hierarchical Modularity:</summary>
 Allow collapsing and grouping of cells for organisation. Indeed, whole notebooks can be included as one unit of computation in another notebook using this framework.
 </details>
-<details><summary>- Modularity II:</summary>
+<details><summary>Modularity II:</summary>
 Allow naming and documenting to be explicitly linked to code cells. Allow decoration of code cells for easy recognition while they are collapsed.
 </details>
-<details><summary>- Horizontal (left to right * ) progression model:</summary>
+<details><summary>Horizontal (left to right * ) progression model:</summary>
 Take advantage of modern widescreen hardware, and the natural reading pattern to specify workflows that flow across the screen, with branches being represented by vertical splits. * or right to left depending on locale
 </details>
 
@@ -89,7 +90,7 @@ Key stakeholders:
 - Mozilla & Helmsley Charitable Trust (Alex's funders)
 - Jupyter (current developers of notebooks)
 
-- When to engage with each stakeholders?
+- When to engage with each stakeholder?
 - How to keep everyone updated on progress?
 - How to get support without burdening stakeholders as well as give support where possible?
 
