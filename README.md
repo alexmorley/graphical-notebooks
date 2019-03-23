@@ -48,6 +48,7 @@ TODO: update this with figma designs
 reflecting the generally non-linear flow of exploratory analysis and testing
 </details>
 
+### Feature Spec
 <details><summary>Hierarchical Modularity:</summary>
 Allow collapsing and grouping of cells for organisation. Indeed, whole notebooks can be included as one unit of computation in another notebook using this framework.
 </details>
@@ -56,6 +57,9 @@ Allow naming and documenting to be explicitly linked to code cells. Allow decora
 </details>
 <details><summary>Horizontal (left to right * ) progression model:</summary>
 Take advantage of modern widescreen hardware, and the natural reading pattern to specify workflows that flow across the screen, with branches being represented by vertical splits. * or right to left depending on locale
+</details>
+<details><summary>Explicit linking of figure to code diff</summary>
+In a given session, it should always be possible to view the answer to the question: what were the code changes between Figure (state) A and Figure (state) B? Importantly Figures (states) A and B can be any Figure (or explicitly saved state) generated during the session.
 </details>
 
 ## Process and Design Principles
