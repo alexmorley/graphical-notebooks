@@ -1,4 +1,4 @@
-﻿# Graphical Notebooks
+# Jupyter Span / Graphical Notebooks
 **Computational notebooks that reflect the mental model of humans**  
 
 A core tenet of user-centered design is that user interfaces should, as much as possible, reflect the prior mental model that the user has of a process. Just as syscall API hides hardware-specific details from programmers developing applications, abstractions at each level of a user interface offer an opportunity to reduce the mental load on the user, enabling them to perform more complex tasks and make fewer mistakes. However these abstractions, however well implemented, will often have tradeoffs in terms of the complexity or performance of the application.
@@ -42,8 +42,14 @@ Many of the concepts here are well validated in current / past software, the nex
 [Wrattler](https://www.usenix.org/system/files/conference/tapp2018/tapp2018-paper-petricek.pdf) - Data Dependency graph allowing polyglot notebooks and cacheable cells.
 
 ## Proposed Interface
-TODO: update this with figma designs
+See Prototype [here](https://www.figma.com/file/Ig0NLRbmKqqPpbG3M8sit8Ws/Jupyter-Span)  
+
+![Sketch2](design/design2.png)
+
 ![Sketch](design/ideas1.png)
+
+<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIg0NLRbmKqqPpbG3M8sit8Ws%2FJupyter-Span%3Fnode-id%3D1%253A2%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+
 <details><summary>Branching Paths:</summary>
 reflecting the generally non-linear flow of exploratory analysis and testing
 </details>
