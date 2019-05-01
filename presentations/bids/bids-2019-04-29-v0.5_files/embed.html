@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!-- saved from url=(0116)https://www.figma.com/proto/Ig0NLRbmKqqPpbG3M8sit8Ws/Jupyter-Span?embed_host=share&node-id=59%3A2373&scaling=contain -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <script type="text/javascript" async="" src="./analytics.min.js"></script><script>
+      if (function() {
+        try { eval('class Foo {}') } catch (e) { return true }
+        if (!window.fetch) return true
+        return false
+      }()) {
+        location.href = '/unsupported_browser'
+      }
+    </script>
+
+
+
+    <script type="text/javascript" async="" src="./wootric-sdk.js"></script>
+
+    <script>
+  (function() {
+    if (!window.INITIAL_OPTIONS) {
+      window.INITIAL_OPTIONS = {};
+    }
+
+    window.INITIAL_OPTIONS.feature_flags = {"component_style_api":true,"copy_paste_v3_patches1":true,"defer_invisible_children":true,"delete_checkpoints":true,"exp_review_editors_01":true,"frame_background_shadow_fix":true,"garbage_collect_avatars":true,"garbage_collect_checkpoints":true,"garbage_collect_fig_images":true,"garbage_collect_files":true,"garbage_collect_s3_delete":true,"incremental_loading":true,"library_search_worker":true,"line_height_update":true,"line_height_update_code":true,"mirror_app_scale_width":true,"new_error_dashboard":true,"new_error_reporting":true,"open_links_desktop_app":true,"org_handle":true,"render_server_json_api":true,"server_side_search_dark_launch":true,"skia_early_return":true,"snap_guides_to_groups":true,"stop_tracking_all_feature_flags":true,"team_create_onboarding_a":true,"ui_refresh":true,"ui_refresh_2":true,"use_helpscout":true,"use_server_side_images":true,"user_flags":true,"viewer_usedastlf_fixes":true,"web_line_height":true};
+    window.INITIAL_OPTIONS.tracking_session_id = "01dc3d3e-e637-475c-a737-b0ba3ca1d7a2";
+    window.INITIAL_OPTIONS.cluster_name = "prod";
+    window.INITIAL_OPTIONS.error_dashboard_url = "https://errors.figma.com/api";
+
+    window.INITIAL_OPTIONS.flash = {
+      error: null,
+      warn: null,
+      success: null
+    }
+
+
+      var _initial_options = {"resource_type":null,"email":null,"redirect_url":null,"email_token":null,"access_code":null,"editing_file":{"creator_id":"550274444637729767","key":"Ig0NLRbmKqqPpbG3M8sit8Ws","name":"Jupyter Span","description":null,"creator":{"id":"550274444637729767","handle":"Sam Ballard","img_url":"https:\/\/s3-alpha.figma.com\/profile\/72789873-d4b2-44ad-80b2-f3484504389b"},"folder_id":"521454","scheme":null,"track_tags":null,"team_id":null,"link_access":"view","trashed_user_id":null,"client_meta":"{\"background_color\":{\"r\":0.89803922176361084,\"g\":0.89803922176361084,\"b\":0.89803922176361084,\"a\":1.0},\"thumbnail_size\":{\"width\":800,\"height\":478},\"render_coordinates\":{\"x\":-1360.0,\"y\":-839.50,\"width\":3556.0,\"height\":2125.50}}","license":null,"parent_org_id":null,"org_browsable":null,"url":"https:\/\/www.figma.com\/file\/Ig0NLRbmKqqPpbG3M8sit8Ws\/Jupyter-Span","edit_url":"https:\/\/www.figma.com\/file\/Ig0NLRbmKqqPpbG3M8sit8Ws\/Jupyter-Span","prototype_url":"https:\/\/www.figma.com\/proto\/Ig0NLRbmKqqPpbG3M8sit8Ws\/Jupyter-Span","checkpoint_key":"EkZ3YkXkB5L1rQzYCy8dy0","canvas_path":"checkpoints\/EkZ\/3Yk\/XkB5L1rQzYCy8dy0\/eO4NFNjTXJw4J0Q2IlXQPf.fig","canvas_url":"\/file\/Ig0NLRbmKqqPpbG3M8sit8Ws\/canvas?ver=EkZ3YkXkB5L1rQzYCy8dy0","thumbnail_url":"\/file\/Ig0NLRbmKqqPpbG3M8sit8Ws\/thumbnail?ver=thumbnails\/371bf581-b996-4382-b689-7c6119c3113a","created_at":"2019-03-25T10:04:30.456762Z","touched_at":"2019-04-17T09:39:18.156918Z","deleted_at":null,"trashed_at":null},"created_file_count":0,"org_id":null}
+      for (var key in _initial_options) {
+        window.INITIAL_OPTIONS[key] = _initial_options[key]
+      }
+
+    window.startUserStateXHR = function() {
+      var stateArgs = ""
+      if (window.INITIAL_OPTIONS.org_id) {
+        stateArgs = "?org_id=" + window.INITIAL_OPTIONS.org_id
+      }
+      var userStateXHR = new XMLHttpRequest
+      userStateXHR.open('GET', '/api/user/state' + stateArgs)
+      userStateXHR.send()
+      window.userStateXHR = userStateXHR
+
+      var userStateXHRStartMs = window.performance ? window.performance.now() : -1
+      userStateXHR.addEventListener('load', function () {
+        window['userStateXHRDuration'] = window.performance ? window.performance.now() - userStateXHRStartMs : -1
+      }, false)
+    };
+    if (location.pathname !== '/preload-editor' && location.pathname !== '/file/new') {
+      window.startUserStateXHR();
+    }
+
+
+      window.Fig = window.Fig || {};
+      var _figOptions = {"importShimURL":"https://static.figma.com/fullscreen/6aea1772b509bec849dc5e39f4277f64b53013e7/import.shim.js.br","importWorkerURL":"https://static.figma.com/fullscreen/6aea1772b509bec849dc5e39f4277f64b53013e7/import.worker.js.br","figMigratorURL":"https://static.figma.com/fullscreen/ffe4cdfb5c8af46cfa11072896e0da9e0583873e/fig_migrator.js.br","fullscreenURLs":{"compiled_asm.js":"https://static.figma.com/fullscreen/d90242aded9b056b0edafad9240f8a79560c8ee1/compiled_asm.js.br","compiled_asm.js.mem":"https://static.figma.com/fullscreen/d90242aded9b056b0edafad9240f8a79560c8ee1/compiled_asm.js.mem.br","compiled_wasm.js":"https://static.figma.com/fullscreen/8ac8b3f8c9c04dedd10d5558a723561c5f633d36/compiled_wasm.js.br","compiled_wasm.wasm":"https://static.figma.com/fullscreen/8ac8b3f8c9c04dedd10d5558a723561c5f633d36/compiled_wasm.wasm.br"},"fullscreenScriptHash":"3508a1278a3b74ec269cb16b55468f186d980ccd","librarySearchWorkerURL":"/figbuild/symlinks/library_search_worker.a61fc7ebcd91039e83f92363e338ea20.min.js","viewerScriptURL":"https://static.figma.com/fullscreen/513044d976f8e8c20ca4eb5b466aedeb5cf0885e/viewer.js.br","viewerWorkerURL":"https://static.figma.com/fullscreen/513044d976f8e8c20ca4eb5b466aedeb5cf0885e/imagedecoder.js.br"};
+      for (var key in _figOptions) {
+        Fig[key] = _figOptions[key]
+      }
+
+
+      window.INITIAL_OPTIONS.segment_web_key = "6Zhdn0wK1GLYzCsb0LIK0oQplS5TXcB2"
+
+      window.INITIAL_OPTIONS.segment_fullscreen_key = "6uxDivlUmLf95lHRk0R8bZvr8zDxbX5E"
+
+    window.INITIAL_OPTIONS.helpscout_beacon_id = "bb58c9f1-37d7-46d9-80aa-d5308d20ee3f"
+
+      window.INITIAL_OPTIONS.intercom_app_id = "ph61hkzm"
+
+
+      window.INITIAL_OPTIONS.stripe_api_public = "pk_live_LKZ0RKjSZG2D2pwdtwrAhkiJ"
+
+      window.INITIAL_OPTIONS.release_manifest_hash = "6e1c57bc6c4fd0f0dc1f74c8e4bc6d87"
+      console.log('release_manifest_hash:', window.INITIAL_OPTIONS.release_manifest_hash)
+
+      window.INITIAL_OPTIONS.release_git_commit = "8ac8b3f8c9c04dedd10d5558a723561c5f633d36"
+      console.log('release_git_commit:', window.INITIAL_OPTIONS.release_git_commit)
+      window.INITIAL_OPTIONS.release_git_tag = "release-93"
+      console.log('release_git_tag:', window.INITIAL_OPTIONS.release_git_tag)
+  })();
+</script>
+
+
+    <meta name="google" content="notranslate">
+
+    <title>▶ v 4 - Jupyter Span</title>
+
+      <style type="text/css">
+  #filebrowser-loading-page {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-in-out;
+  }
+
+  #filebrowser-loading-page.fadeOut {
+    opacity: 0;
+  }
+
+  #filebrowser-loading-page.hidden {
+    display: none;
+    opacity: 0;
+  }
+
+  #filebrowser-loading-page .topBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    background-color: #2c2c2c;
+  }
+
+  #filebrowser-loading-page .sidebar {
+    background-color: white;
+    position: absolute;
+    top: 42px;
+    padding-top: 41px;
+    left: 0;
+    height: 100%;
+  }
+
+  #filebrowser-loading-page .sidebar .row {
+    background-color: #efefef;
+    border-radius: 4px;
+    margin-left: 47px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 15px;
+  }
+
+  #filebrowser-loading-page .sidebar .divider {
+    height: 1px;
+    width: 200px;
+    background-color: #efefef;
+    margin-top: 22px;
+    margin-bottom: 19px;
+  }
+
+  #filebrowser-loading-page .sidebar div:nth-child(2) { width: 80px; }
+  #filebrowser-loading-page .sidebar div:nth-child(3) { width: 110px; }
+  #filebrowser-loading-page .sidebar div:nth-child(6) { width: 50px; }
+  #filebrowser-loading-page .sidebar div:nth-child(7) { width: 60px; opacity: .8;}
+  #filebrowser-loading-page .sidebar div:nth-child(8) { width: 45px; opacity: .6;}
+  #filebrowser-loading-page .sidebar div:nth-child(9) { width: 45px; opacity: .4;}
+
+  #filebrowser-loading-page .sidebar .circle {
+    position: absolute;
+    left: 12px;
+    top: 154px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #efefef;
+  }
+
+  #filebrowser-loading-page .content {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-top: 42px;
+    border-left: 1px #ebebeb solid;
+    background-color: #f8f8f8;
+    width: calc(100% - 200px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 24px 24px;
+    align-content: flex-start;
+  }
+
+  #filebrowser-loading-page .tile {
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.13);
+    min-width: 274px;
+    max-width: 424px;
+    height: 217px;
+    flex-grow: 1;
+    margin: 0 24px 24px 0;
+
+    background-image:
+      linear-gradient(
+        to bottom,
+        #e5e5e5 74.5%,
+        #ffffff 74.5%);
+  }
+
+  #filebrowser-loading-page .tile:nth-child(2) { opacity: .9; }
+  #filebrowser-loading-page .tile:nth-child(3) { opacity: .8; }
+  #filebrowser-loading-page .tile:nth-child(4) { opacity: .7; }
+  #filebrowser-loading-page .tile:nth-child(5) { opacity: .6; }
+  #filebrowser-loading-page .tile:nth-child(6) { opacity: .5; }
+  #filebrowser-loading-page .tile:nth-child(7) { opacity: .4; }
+  #filebrowser-loading-page .tile:nth-child(8) { opacity: .3; }
+  #filebrowser-loading-page .tile:nth-child(9) { opacity: .2; }
+  #filebrowser-loading-page .tile:nth-child(10) { opacity: .1; }
+
+  /* the extra invisible elements help reliably position the tiles */
+  #filebrowser-loading-page .tile:nth-child(n+11) { visibility: hidden;}
+
+  #filebrowser-loading-progress-bar {
+    height: 4px;
+    background-color: #30C2FF;
+    position: absolute;
+    top: 42px;
+    animation: filebrowserloadingProgressBar 10s cubic-bezier(.08,.8,.1,1) forwards;
+  }
+
+  .feature_flag_ui_refresh #filebrowser-loading-progress-bar {
+    background-color: #18A0FB;
+  }
+
+  @keyframes filebrowserloadingProgressBar {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+
+  @media (max-width: 645px) {
+    #filebrowser-loading-page .sidebar {
+      display: none;
+    }
+
+    #filebrowser-loading-page .content {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 821px) {
+    #filebrowser-loading-page .tile {
+      /* 51% ensures no more than 1 tile per row */
+      min-width: 51%;
+      max-width: 100%;
+    }
+  }
+
+</style>
+
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@figmadesign">
+    <meta name="twitter:title" content="Jupyter Span">
+    <meta name="twitter:player" content="https://www.figma.com/embed?embed_host=twitter&amp;url=https://www.figma.com/proto/Ig0NLRbmKqqPpbG3M8sit8Ws?embed_host=share&amp;node-id=59%3A2373&amp;scaling=contain">
+    <meta name="twitter:player:width" content="800">
+    <meta name="twitter:player:height" content="450">
+    <meta name="twitter:image" content="/file/Ig0NLRbmKqqPpbG3M8sit8Ws/thumbnail?ver=thumbnails/371bf581-b996-4382-b689-7c6119c3113a">
+    <meta property="og:url" content="https://www.figma.com/file/Ig0NLRbmKqqPpbG3M8sit8Ws/Jupyter-Span">
+    <meta property="og:description" content="Created with Figma">
+    <meta property="og:image" content="/file/Ig0NLRbmKqqPpbG3M8sit8Ws/thumbnail?ver=thumbnails/371bf581-b996-4382-b689-7c6119c3113a">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="478">
+    <meta property="og:image:user_generated" content="true">
+    <meta property="og:type" content="article">
+    <meta property="og:article:published_time" content="2019-03-25 10:04:30 UTC">
+    <meta property="og:article:modified_time" content="2019-04-17 09:39:18 UTC">
+    <meta property="og:article:section" content="Design">
+    <link rel="alternate" type="application/json+oembed" href="https://www.figma.com/api/oembed?url=https://www.figma.com/proto/Ig0NLRbmKqqPpbG3M8sit8Ws?embed_host=share&amp;node-id=59%3A2373&amp;scaling=contain" title="OEmbed">
+
+    <meta property="og:title" content="Figma">
+    <meta property="og:site_name" content="Figma">
+
+    
+
+
+<link rel="icon" sizes="192x192" href="https://static.figma.com/app/icon/1/icon-192.png">
+<link rel="icon" sizes="128x128" href="https://static.figma.com/app/icon/1/icon-128.png">
+
+<link rel="icon" type="image/png" href="https://static.figma.com/app/icon/1/favicon.png">
+<!--[if IE]><link rel="shortcut icon" href="https://static.figma.com/app/icon/1/favicon.ico" type="image/vnd.microsoft.icon" /><![endif]-->
+<link rel="icon" sizes="any" type="image/svg+xml" href="https://static.figma.com/app/icon/1/favicon.svg">
+
+<link rel="apple-touch-icon" sizes="76x76" href="https://static.figma.com/app/icon/1/touch-76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://static.figma.com/app/icon/1/touch-120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://static.figma.com/app/icon/1/touch-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://static.figma.com/app/icon/1/touch-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.figma.com/app/icon/1/touch-180.png">
+
+
+      <link href="./figma_app.9fee5e2bc8f3a362dc9b1d7285f815b6.min.css" rel="stylesheet">
+
+  <script type="text/javascript" async="" crossorigin="anonymous" src="./import.shim.js.br"></script><style>@-moz-keyframes progress-bar-animation {0.000%{transform:scaleX(0.000);}0.500%{transform:scaleX(0.066);}1.000%{transform:scaleX(0.130);}1.500%{transform:scaleX(0.192);}2.000%{transform:scaleX(0.250);}2.500%{transform:scaleX(0.305);}3.000%{transform:scaleX(0.355);}3.500%{transform:scaleX(0.402);}4.000%{transform:scaleX(0.444);}4.500%{transform:scaleX(0.482);}5.000%{transform:scaleX(0.516);}5.500%{transform:scaleX(0.548);}6.000%{transform:scaleX(0.576);}6.500%{transform:scaleX(0.602);}7.000%{transform:scaleX(0.625);}7.500%{transform:scaleX(0.646);}8.000%{transform:scaleX(0.666);}8.500%{transform:scaleX(0.683);}9.000%{transform:scaleX(0.699);}9.500%{transform:scaleX(0.714);}10.000%{transform:scaleX(0.728);}10.500%{transform:scaleX(0.741);}11.000%{transform:scaleX(0.752);}11.500%{transform:scaleX(0.763);}12.000%{transform:scaleX(0.773);}12.500%{transform:scaleX(0.783);}13.000%{transform:scaleX(0.791);}13.500%{transform:scaleX(0.800);}14.000%{transform:scaleX(0.807);}14.500%{transform:scaleX(0.815);}15.000%{transform:scaleX(0.821);}15.500%{transform:scaleX(0.828);}16.000%{transform:scaleX(0.834);}16.500%{transform:scaleX(0.839);}17.000%{transform:scaleX(0.845);}17.500%{transform:scaleX(0.850);}18.000%{transform:scaleX(0.855);}18.500%{transform:scaleX(0.859);}19.000%{transform:scaleX(0.864);}19.500%{transform:scaleX(0.868);}20.000%{transform:scaleX(0.872);}20.500%{transform:scaleX(0.876);}21.000%{transform:scaleX(0.879);}21.500%{transform:scaleX(0.883);}22.000%{transform:scaleX(0.886);}22.500%{transform:scaleX(0.889);}23.000%{transform:scaleX(0.892);}23.500%{transform:scaleX(0.895);}24.000%{transform:scaleX(0.898);}24.500%{transform:scaleX(0.900);}25.000%{transform:scaleX(0.903);}25.500%{transform:scaleX(0.906);}26.000%{transform:scaleX(0.908);}26.500%{transform:scaleX(0.910);}27.000%{transform:scaleX(0.912);}27.500%{transform:scaleX(0.915);}28.000%{transform:scaleX(0.917);}28.500%{transform:scaleX(0.919);}29.000%{transform:scaleX(0.921);}29.500%{transform:scaleX(0.922);}30.000%{transform:scaleX(0.924);}30.500%{transform:scaleX(0.926);}31.000%{transform:scaleX(0.928);}31.500%{transform:scaleX(0.929);}32.000%{transform:scaleX(0.931);}32.500%{transform:scaleX(0.932);}33.000%{transform:scaleX(0.934);}33.500%{transform:scaleX(0.935);}34.000%{transform:scaleX(0.937);}34.500%{transform:scaleX(0.938);}35.000%{transform:scaleX(0.940);}35.500%{transform:scaleX(0.941);}36.000%{transform:scaleX(0.942);}36.500%{transform:scaleX(0.943);}37.000%{transform:scaleX(0.945);}37.500%{transform:scaleX(0.946);}38.000%{transform:scaleX(0.947);}38.500%{transform:scaleX(0.948);}39.000%{transform:scaleX(0.949);}39.500%{transform:scaleX(0.950);}40.000%{transform:scaleX(0.951);}40.500%{transform:scaleX(0.952);}41.000%{transform:scaleX(0.953);}41.500%{transform:scaleX(0.954);}42.000%{transform:scaleX(0.955);}42.500%{transform:scaleX(0.956);}43.000%{transform:scaleX(0.957);}43.500%{transform:scaleX(0.958);}44.000%{transform:scaleX(0.958);}44.500%{transform:scaleX(0.959);}45.000%{transform:scaleX(0.960);}45.500%{transform:scaleX(0.961);}46.000%{transform:scaleX(0.962);}46.500%{transform:scaleX(0.962);}47.000%{transform:scaleX(0.963);}47.500%{transform:scaleX(0.964);}48.000%{transform:scaleX(0.965);}48.500%{transform:scaleX(0.965);}49.000%{transform:scaleX(0.966);}49.500%{transform:scaleX(0.967);}50.000%{transform:scaleX(0.967);}50.500%{transform:scaleX(0.968);}51.000%{transform:scaleX(0.969);}51.500%{transform:scaleX(0.969);}52.000%{transform:scaleX(0.970);}52.500%{transform:scaleX(0.970);}53.000%{transform:scaleX(0.971);}53.500%{transform:scaleX(0.972);}54.000%{transform:scaleX(0.972);}54.500%{transform:scaleX(0.973);}55.000%{transform:scaleX(0.973);}55.500%{transform:scaleX(0.974);}56.000%{transform:scaleX(0.974);}56.500%{transform:scaleX(0.975);}57.000%{transform:scaleX(0.975);}57.500%{transform:scaleX(0.976);}58.000%{transform:scaleX(0.976);}58.500%{transform:scaleX(0.977);}59.000%{transform:scaleX(0.977);}59.500%{transform:scaleX(0.978);}60.000%{transform:scaleX(0.978);}60.500%{transform:scaleX(0.979);}61.000%{transform:scaleX(0.979);}61.500%{transform:scaleX(0.980);}62.000%{transform:scaleX(0.980);}62.500%{transform:scaleX(0.980);}63.000%{transform:scaleX(0.981);}63.500%{transform:scaleX(0.981);}64.000%{transform:scaleX(0.982);}64.500%{transform:scaleX(0.982);}65.000%{transform:scaleX(0.982);}65.500%{transform:scaleX(0.983);}66.000%{transform:scaleX(0.983);}66.500%{transform:scaleX(0.984);}67.000%{transform:scaleX(0.984);}67.500%{transform:scaleX(0.984);}68.000%{transform:scaleX(0.985);}68.500%{transform:scaleX(0.985);}69.000%{transform:scaleX(0.985);}69.500%{transform:scaleX(0.986);}70.000%{transform:scaleX(0.986);}70.500%{transform:scaleX(0.986);}71.000%{transform:scaleX(0.987);}71.500%{transform:scaleX(0.987);}72.000%{transform:scaleX(0.987);}72.500%{transform:scaleX(0.988);}73.000%{transform:scaleX(0.988);}73.500%{transform:scaleX(0.988);}74.000%{transform:scaleX(0.988);}74.500%{transform:scaleX(0.989);}75.000%{transform:scaleX(0.989);}75.500%{transform:scaleX(0.989);}76.000%{transform:scaleX(0.990);}76.500%{transform:scaleX(0.990);}77.000%{transform:scaleX(0.990);}77.500%{transform:scaleX(0.990);}78.000%{transform:scaleX(0.991);}78.500%{transform:scaleX(0.991);}79.000%{transform:scaleX(0.991);}79.500%{transform:scaleX(0.992);}80.000%{transform:scaleX(0.992);}80.500%{transform:scaleX(0.992);}81.000%{transform:scaleX(0.992);}81.500%{transform:scaleX(0.993);}82.000%{transform:scaleX(0.993);}82.500%{transform:scaleX(0.993);}83.000%{transform:scaleX(0.993);}83.500%{transform:scaleX(0.994);}84.000%{transform:scaleX(0.994);}84.500%{transform:scaleX(0.994);}85.000%{transform:scaleX(0.994);}85.500%{transform:scaleX(0.994);}86.000%{transform:scaleX(0.995);}86.500%{transform:scaleX(0.995);}87.000%{transform:scaleX(0.995);}87.500%{transform:scaleX(0.995);}88.000%{transform:scaleX(0.996);}88.500%{transform:scaleX(0.996);}89.000%{transform:scaleX(0.996);}89.500%{transform:scaleX(0.996);}90.000%{transform:scaleX(0.996);}90.500%{transform:scaleX(0.997);}91.000%{transform:scaleX(0.997);}91.500%{transform:scaleX(0.997);}92.000%{transform:scaleX(0.997);}92.500%{transform:scaleX(0.997);}93.000%{transform:scaleX(0.998);}93.500%{transform:scaleX(0.998);}94.000%{transform:scaleX(0.998);}94.500%{transform:scaleX(0.998);}95.000%{transform:scaleX(0.998);}95.500%{transform:scaleX(0.998);}96.000%{transform:scaleX(0.999);}96.500%{transform:scaleX(0.999);}97.000%{transform:scaleX(0.999);}97.500%{transform:scaleX(0.999);}98.000%{transform:scaleX(0.999);}98.500%{transform:scaleX(1.000);}99.000%{transform:scaleX(1.000);}99.500%{transform:scaleX(1.000);}}@-webkit-keyframes progress-bar-animation {0.000%{transform:scaleX(0.000);}0.500%{transform:scaleX(0.066);}1.000%{transform:scaleX(0.130);}1.500%{transform:scaleX(0.192);}2.000%{transform:scaleX(0.250);}2.500%{transform:scaleX(0.305);}3.000%{transform:scaleX(0.355);}3.500%{transform:scaleX(0.402);}4.000%{transform:scaleX(0.444);}4.500%{transform:scaleX(0.482);}5.000%{transform:scaleX(0.516);}5.500%{transform:scaleX(0.548);}6.000%{transform:scaleX(0.576);}6.500%{transform:scaleX(0.602);}7.000%{transform:scaleX(0.625);}7.500%{transform:scaleX(0.646);}8.000%{transform:scaleX(0.666);}8.500%{transform:scaleX(0.683);}9.000%{transform:scaleX(0.699);}9.500%{transform:scaleX(0.714);}10.000%{transform:scaleX(0.728);}10.500%{transform:scaleX(0.741);}11.000%{transform:scaleX(0.752);}11.500%{transform:scaleX(0.763);}12.000%{transform:scaleX(0.773);}12.500%{transform:scaleX(0.783);}13.000%{transform:scaleX(0.791);}13.500%{transform:scaleX(0.800);}14.000%{transform:scaleX(0.807);}14.500%{transform:scaleX(0.815);}15.000%{transform:scaleX(0.821);}15.500%{transform:scaleX(0.828);}16.000%{transform:scaleX(0.834);}16.500%{transform:scaleX(0.839);}17.000%{transform:scaleX(0.845);}17.500%{transform:scaleX(0.850);}18.000%{transform:scaleX(0.855);}18.500%{transform:scaleX(0.859);}19.000%{transform:scaleX(0.864);}19.500%{transform:scaleX(0.868);}20.000%{transform:scaleX(0.872);}20.500%{transform:scaleX(0.876);}21.000%{transform:scaleX(0.879);}21.500%{transform:scaleX(0.883);}22.000%{transform:scaleX(0.886);}22.500%{transform:scaleX(0.889);}23.000%{transform:scaleX(0.892);}23.500%{transform:scaleX(0.895);}24.000%{transform:scaleX(0.898);}24.500%{transform:scaleX(0.900);}25.000%{transform:scaleX(0.903);}25.500%{transform:scaleX(0.906);}26.000%{transform:scaleX(0.908);}26.500%{transform:scaleX(0.910);}27.000%{transform:scaleX(0.912);}27.500%{transform:scaleX(0.915);}28.000%{transform:scaleX(0.917);}28.500%{transform:scaleX(0.919);}29.000%{transform:scaleX(0.921);}29.500%{transform:scaleX(0.922);}30.000%{transform:scaleX(0.924);}30.500%{transform:scaleX(0.926);}31.000%{transform:scaleX(0.928);}31.500%{transform:scaleX(0.929);}32.000%{transform:scaleX(0.931);}32.500%{transform:scaleX(0.932);}33.000%{transform:scaleX(0.934);}33.500%{transform:scaleX(0.935);}34.000%{transform:scaleX(0.937);}34.500%{transform:scaleX(0.938);}35.000%{transform:scaleX(0.940);}35.500%{transform:scaleX(0.941);}36.000%{transform:scaleX(0.942);}36.500%{transform:scaleX(0.943);}37.000%{transform:scaleX(0.945);}37.500%{transform:scaleX(0.946);}38.000%{transform:scaleX(0.947);}38.500%{transform:scaleX(0.948);}39.000%{transform:scaleX(0.949);}39.500%{transform:scaleX(0.950);}40.000%{transform:scaleX(0.951);}40.500%{transform:scaleX(0.952);}41.000%{transform:scaleX(0.953);}41.500%{transform:scaleX(0.954);}42.000%{transform:scaleX(0.955);}42.500%{transform:scaleX(0.956);}43.000%{transform:scaleX(0.957);}43.500%{transform:scaleX(0.958);}44.000%{transform:scaleX(0.958);}44.500%{transform:scaleX(0.959);}45.000%{transform:scaleX(0.960);}45.500%{transform:scaleX(0.961);}46.000%{transform:scaleX(0.962);}46.500%{transform:scaleX(0.962);}47.000%{transform:scaleX(0.963);}47.500%{transform:scaleX(0.964);}48.000%{transform:scaleX(0.965);}48.500%{transform:scaleX(0.965);}49.000%{transform:scaleX(0.966);}49.500%{transform:scaleX(0.967);}50.000%{transform:scaleX(0.967);}50.500%{transform:scaleX(0.968);}51.000%{transform:scaleX(0.969);}51.500%{transform:scaleX(0.969);}52.000%{transform:scaleX(0.970);}52.500%{transform:scaleX(0.970);}53.000%{transform:scaleX(0.971);}53.500%{transform:scaleX(0.972);}54.000%{transform:scaleX(0.972);}54.500%{transform:scaleX(0.973);}55.000%{transform:scaleX(0.973);}55.500%{transform:scaleX(0.974);}56.000%{transform:scaleX(0.974);}56.500%{transform:scaleX(0.975);}57.000%{transform:scaleX(0.975);}57.500%{transform:scaleX(0.976);}58.000%{transform:scaleX(0.976);}58.500%{transform:scaleX(0.977);}59.000%{transform:scaleX(0.977);}59.500%{transform:scaleX(0.978);}60.000%{transform:scaleX(0.978);}60.500%{transform:scaleX(0.979);}61.000%{transform:scaleX(0.979);}61.500%{transform:scaleX(0.980);}62.000%{transform:scaleX(0.980);}62.500%{transform:scaleX(0.980);}63.000%{transform:scaleX(0.981);}63.500%{transform:scaleX(0.981);}64.000%{transform:scaleX(0.982);}64.500%{transform:scaleX(0.982);}65.000%{transform:scaleX(0.982);}65.500%{transform:scaleX(0.983);}66.000%{transform:scaleX(0.983);}66.500%{transform:scaleX(0.984);}67.000%{transform:scaleX(0.984);}67.500%{transform:scaleX(0.984);}68.000%{transform:scaleX(0.985);}68.500%{transform:scaleX(0.985);}69.000%{transform:scaleX(0.985);}69.500%{transform:scaleX(0.986);}70.000%{transform:scaleX(0.986);}70.500%{transform:scaleX(0.986);}71.000%{transform:scaleX(0.987);}71.500%{transform:scaleX(0.987);}72.000%{transform:scaleX(0.987);}72.500%{transform:scaleX(0.988);}73.000%{transform:scaleX(0.988);}73.500%{transform:scaleX(0.988);}74.000%{transform:scaleX(0.988);}74.500%{transform:scaleX(0.989);}75.000%{transform:scaleX(0.989);}75.500%{transform:scaleX(0.989);}76.000%{transform:scaleX(0.990);}76.500%{transform:scaleX(0.990);}77.000%{transform:scaleX(0.990);}77.500%{transform:scaleX(0.990);}78.000%{transform:scaleX(0.991);}78.500%{transform:scaleX(0.991);}79.000%{transform:scaleX(0.991);}79.500%{transform:scaleX(0.992);}80.000%{transform:scaleX(0.992);}80.500%{transform:scaleX(0.992);}81.000%{transform:scaleX(0.992);}81.500%{transform:scaleX(0.993);}82.000%{transform:scaleX(0.993);}82.500%{transform:scaleX(0.993);}83.000%{transform:scaleX(0.993);}83.500%{transform:scaleX(0.994);}84.000%{transform:scaleX(0.994);}84.500%{transform:scaleX(0.994);}85.000%{transform:scaleX(0.994);}85.500%{transform:scaleX(0.994);}86.000%{transform:scaleX(0.995);}86.500%{transform:scaleX(0.995);}87.000%{transform:scaleX(0.995);}87.500%{transform:scaleX(0.995);}88.000%{transform:scaleX(0.996);}88.500%{transform:scaleX(0.996);}89.000%{transform:scaleX(0.996);}89.500%{transform:scaleX(0.996);}90.000%{transform:scaleX(0.996);}90.500%{transform:scaleX(0.997);}91.000%{transform:scaleX(0.997);}91.500%{transform:scaleX(0.997);}92.000%{transform:scaleX(0.997);}92.500%{transform:scaleX(0.997);}93.000%{transform:scaleX(0.998);}93.500%{transform:scaleX(0.998);}94.000%{transform:scaleX(0.998);}94.500%{transform:scaleX(0.998);}95.000%{transform:scaleX(0.998);}95.500%{transform:scaleX(0.998);}96.000%{transform:scaleX(0.999);}96.500%{transform:scaleX(0.999);}97.000%{transform:scaleX(0.999);}97.500%{transform:scaleX(0.999);}98.000%{transform:scaleX(0.999);}98.500%{transform:scaleX(1.000);}99.000%{transform:scaleX(1.000);}99.500%{transform:scaleX(1.000);}}</style><script type="text/javascript" async="" crossorigin="anonymous" src="./viewer.js.br"></script></head>
+  <!-- This ARIA attribute is a workaround for a bug in Chrome. See http://crbug.com/876605 for details. -->
+  <body aria-hidden="true" class="feature_flag_component_style_api feature_flag_copy_paste_v3_patches1 feature_flag_defer_invisible_children feature_flag_delete_checkpoints feature_flag_exp_review_editors_01 feature_flag_frame_background_shadow_fix feature_flag_garbage_collect_avatars feature_flag_garbage_collect_checkpoints feature_flag_garbage_collect_fig_images feature_flag_garbage_collect_files feature_flag_garbage_collect_s3_delete feature_flag_incremental_loading feature_flag_library_search_worker feature_flag_line_height_update feature_flag_line_height_update_code feature_flag_mirror_app_scale_width feature_flag_new_error_dashboard feature_flag_new_error_reporting feature_flag_open_links_desktop_app feature_flag_org_handle feature_flag_render_server_json_api feature_flag_server_side_search_dark_launch feature_flag_skia_early_return feature_flag_snap_guides_to_groups feature_flag_stop_tracking_all_feature_flags feature_flag_team_create_onboarding_a feature_flag_ui_refresh feature_flag_ui_refresh_2 feature_flag_use_helpscout feature_flag_use_server_side_images feature_flag_user_flags feature_flag_viewer_usedastlf_fixes feature_flag_web_line_height">
+    <!-- This SVG is a workaround for a bug in Chrome. See http://crbug.com/660929 for details. -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1px" height="1px">
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+    </svg>
+
+      <div style="display: none">
+        <div id="font-roboto-400-normal">a</div>
+        <div id="font-ui-400-normal">a</div>
+        <div id="font-ui-500-normal">a</div>
+        <div id="font-ui-400-italic">a</div>
+        <div id="font-ui-500-italic">a</div>
+      </div>
+
+    <div id="react-page"><div class="in_app_page__REFRESH--app--sG_Cj feature_flag_ui_refresh"><div class="in_app_page__REFRESH--content--1l70i"><div class="prototype--background--DpPNr " style="background-color: rgb(0, 0, 0);"><div class="header--headerClear--14eAa"><div class="header--leftColumn--3jpUC header--sideColumn--11Nzb header--column--_eCKx"><a class="header--topLeftWordMark--1O59R"><span class="svg-container"><svg class="svg" width="51" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v14.048l1.807.006v-6.69h4.358V5.596H1.807V1.768h5.676V0H0zm10.736 2.852c.651 0 1.18-.527 1.18-1.178 0-.651-.529-1.18-1.18-1.18-.65 0-1.178.529-1.178 1.18 0 .65.527 1.178 1.178 1.178zm-.919 1.769v9.43h1.807v-9.43H9.817z"></path><path d="M18.328 4.346c-2.4 0-4.075 2.03-4.075 4.44 0 2.41 1.675 4.44 4.075 4.44 1.1 0 2.005-.426 2.664-1.118v1.255c0 1.563-1.227 2.869-2.829 2.869-.576 0-1.148-.223-1.604-.537l-.905 1.568c.723.466 1.584.737 2.509.737 2.56 0 4.637-2.076 4.637-4.637V4.621h-1.808v.843c-.659-.693-1.565-1.118-2.664-1.118zm-2.267 4.44c0-1.496 1.144-2.672 2.464-2.672 1.32 0 2.464 1.176 2.464 2.672 0 1.496-1.144 2.672-2.464 2.672-1.32 0-2.464-1.176-2.464-2.672z" fill-rule="evenodd"></path><path d="M29.312 6.114c-1.068 0-1.935.905-1.935 1.974v5.963H25.57v-9.43h1.807v.863c.53-.684 1.31-1.138 2.328-1.138 1.267 0 2.239.629 2.802 1.591.626-.93 1.647-1.591 2.876-1.591 2.057 0 3.338 1.66 3.35 3.713v5.992h-1.807V8.088c0-1.069-.867-1.974-1.936-1.974-1.069 0-1.935.905-1.935 1.974v5.963h-1.807V8.088c0-1.069-.867-1.974-1.936-1.974z"></path><path d="M48.36 5.69c-.804-.83-1.905-1.344-3.183-1.344-2.689 0-4.597 2.276-4.597 4.99 0 2.713 1.908 4.99 4.597 4.99 1.278 0 2.379-.514 3.183-1.344v1.069h1.807v-9.43H48.36V5.69zm-5.973 3.646c0-1.8 1.379-3.222 2.987-3.222 1.607 0 2.986 1.422 2.986 3.222 0 1.8-1.379 3.222-2.986 3.222-1.608 0-2.987-1.422-2.987-3.222z" fill-rule="evenodd"></path></svg></span></a></div><div class="header--centerColumn--47wW2 header--column--_eCKx"><a class="header--title--4aIq1 ellipsis--ellipsis--1RWY6" target="_blank" rel="noopener" href="https://www.figma.com/proto/Ig0NLRbmKqqPpbG3M8sit8Ws">Jupyter Span</a></div><div class="header--rightColumn--18A7d header--sideColumn--11Nzb header--column--_eCKx"><div class="scaling_menu--scalingMenu--2sDzD dropdown_menu--dropdownMenu----PdH"><div class="scaling_menu--scalingMenuButton--3M5_G dropdown_menu--dropdownButton--2wyKA"><span data-selector="label">Fill</span><div class="scaling_menu--buttonChevron--3mwBn"><span class="svg-container"><svg class="svg" width="6" height="6" xmlns="http://www.w3.org/2000/svg"><path d="M1.232 1.768L.88 1.414l-.707.707.353.354.707-.707zM3 4.243l-.354.353L3 4.95l.354-.354L3 4.243zm2.475-1.768l.353-.354-.707-.707-.353.354.707.707zm-4.95 0l2.121 2.121.708-.707-2.122-2.121-.707.707zm2.829 2.121l2.12-2.121-.706-.707-2.122 2.121.708.707z"></path></svg></span></div></div></div><a class="header--fullScreenButtonDisabled--32pSD header--fullScreenButtonBase--cV4ap action--root--1ClVW" data-tooltip-text="Full Screen is not supported by this browser"><span class="svg-container"><svg class="svg" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M14.54 4.168l-3.187 3.186-.708-.708 3.197-3.197.753-.449H11V2h5v5h-1V3.334l-.46.834zM3.46 13.832l3.186-3.186.708.708-3.198 3.197-.752.449H7v1H2v-5h1v3.666l.46-.834z"></path></svg></span></a></div></div><div class="prototype--wrapper--KZ5DX"><div id="viewerContainer" class="prototype--viewer--W7Z-5"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: auto; height: auto;"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: auto; height: auto;"><canvas height="594" width="787" style="display: block; top: 0px; left: 0px; width: 874px; height: 660px;"></canvas></div></div></div></div><div class="footer--footerHidden--UAd04 footer--footer--fZyaC"><div class="footer--status--myMjn footer--pill--g2EV5"><span class="svg-container footer--backIconContainerDisabled--1auHU footer--statusContainer--3JrXH"><svg class="svg" width="8" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M1 6.5l-.354-.354-.353.354.353.354L1 6.5zM6.646.146l-6 6 .708.708 6-6-.708-.708zm-6 6.708l6 6 .708-.708-6-6-.708.708z" fill="#fff"></path></svg></span><div class="footer--statusText--1TEHU">1 / 17</div><span class="svg-container footer--nextIconContainer--1lULF footer--statusContainer--3JrXH"><svg class="svg" width="8" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 6.5l.354-.354.353.354-.353.354L6.5 6.5zM.854.146l6 6-.708.708-6-6L.854.146zm6 6.708l-6 6-.708-.708 6-6 .708.708z" fill="#fff"></path></svg></span></div><div class="footer--replayButton--wwjy6 footer--pill--g2EV5"><span class="svg-container"><svg class="svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M6.293 11.5l3.354-3.354.707.708L8.207 11H14c1.657 0 3 1.343 3 3v1h-1v-1c0-1.105-.895-2-2-2H8.207l2.147 2.146-.707.708L6.293 11.5z" fill-rule="evenodd" fill="#fff"></path></svg></span>Restart (R)</div></div></div><div class="flash_view--flashes--1wuM5"></div><div class="visual_bell--base--1xST5 "><div class="visual_bell--messageContainer--3tSMR _overlayBase--_overlayBase--1sCqN text--whiteTitleText--2yF_5 text--titleText--10C29 text--_whiteText--2PkdM "></div></div><div></div></div></div></div>
+
+      <div id="filebrowser-loading-page" class="hidden fadeOut">
+  <div class="topBar"></div>
+  <div class="sidebar">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="divider"></div>
+    <div class="circle"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </div>
+  <div class="content">
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+  </div>
+  <div id="filebrowser-loading-progress-bar"></div>
+</div>
+
+
+    
+
+      <script>
+    window['sentryConfig'] = {
+    }
+  </script>
+
+      <script src="./vendor.8a825152cc7ba200ec954d8914bb3937.min.js"></script>
+      <script src="./figma_app.165bf7dd8e91bf0ae7407e144bc4327a.min.js"></script>
+
+  
+
+</body></html>

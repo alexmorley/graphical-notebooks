@@ -1,0 +1,891 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 340,
+          "y": 255,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>I'm Alex Morley<br><br>I am a Mozilla Fellow<br><br>I want science to be better?<br></font>",
+          "size": 29,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 409,
+      "y": 254
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 274,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Critical Feedback Wanted!</font>",
+          "size": 24,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 102,
+          "y": 139,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>This is concept-stage stuff.</font>",
+          "size": 24,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 416,
+          "y": 402,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>What doesn't make sense?<br><br></li><li>Who else is trying to solve the same problems?<br><br></li><li>What is technically infeasible?</li></ul>",
+          "size": 24,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "x": 657,
+      "y": 257,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -190,
+          "y": 312,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "User Profiles<br>",
+          "size": 105,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "TextBox": {},
+          "x": 211,
+          "y": 251,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Claire</font>",
+          "size": 45,
+          "selected": false
+        },
+        {
+          "src": "https://image.flaticon.com/icons/svg/1656/1656640.svg",
+          "type": "WebFrame",
+          "x": 202,
+          "y": 78,
+          "scale": {
+            "x": 0.18541666666666667,
+            "y": 0.18541666666666667,
+            "width": 178,
+            "height": 142.4
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 215,
+          "y": 316,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>PhD Student<br></font>",
+          "size": 20,
+          "selected": false,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 460,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Aims &amp; Processes<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 466,
+          "y": 78,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Do analysis and make figures quickly<br>to get feedback from supervisor.<br><br></li><li>Discover new things in complex data<br>&nbsp; &nbsp; - trying lot's of new methods<br>&nbsp; &nbsp; - customising old code from her group</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 462,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Life Goals<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 463,
+          "y": 325,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Publish her cool findings<br><br></li><li>Get a post-doc in Janice Corney's lab</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 469,
+          "y": 455,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Relevant Concerns<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 474,
+          "y": 512,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Iterate on ideas quickly<br><br></li><li>Revisit previous ideas and pick them up again<br>easily<br><br></li><li>Make / save figures quickly, while keeping track<br>track of how they were generated.<br><br></li><li>Keep lot's of similar ideas organised</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 404,
+      "y": 441,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 126,
+          "y": 250,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Edward</font>",
+          "size": 45,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 132,
+          "y": 310,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Group Leader<br></font>",
+          "size": 20,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 376,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Aims &amp; Processes<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 361,
+          "y": 90,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Review work of lab members regularly:<br>- help interpret it<br>- advise on next steps<br><br></li><li>Re-uses work from previous members of the group<br>for future projects</li></ul><font><br></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 378,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Life Goals<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 369,
+          "y": 327,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Publish two nature papers<br><br></li><li>Recognition from the field</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 385,
+          "y": 455,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Relevant Concerns<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 362,
+          "y": 516,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>No time to learn a new tool<br><br></li><li>Concerned about stability of tools that lab members<br>are using - will it work in 10 years<br><br></li><li>Needs to keep track of both history and current state of<br>many projects.<br></li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "src": "https://image.flaticon.com/icons/svg/417/417777.svg",
+          "type": "WebFrame",
+          "x": 98,
+          "y": 66,
+          "scale": {
+            "x": 0.21250000000000002,
+            "y": 0.21250000000000002,
+            "width": 204.00000000000003,
+            "height": 163.20000000000002
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 655,
+      "y": 443
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 123,
+          "y": 251,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Jane</font>",
+          "size": 45,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 373,
+          "y": 17,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Aims &amp; Processes<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 379,
+          "y": 77,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Fast analysis of new data to generate<br>actionable insights for other teams<br><br></li><li>Set up pipelines for processing and analysis<br>of continuously streamed data<br><br></li><li>Generate compelling reports about the data</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 376,
+          "y": 277,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Life Goals<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 377,
+          "y": 332,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Be part of a successful start-up<br><br></li><li>Start her own business</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 382,
+          "y": 454,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Relevant Concerns<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 386,
+          "y": 510,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Need flexible data pipelines that can be easily tweaked<br>and interrogated<br><br></li><li>But the same pipelines have to be robust if they are used in<br>production<br><br></li><li>Need to have a efficient transition between data analysis<br>and presentation<br></li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "src": "https://image.flaticon.com/icons/svg/1338/1338152.svg",
+          "type": "WebFrame",
+          "x": 119,
+          "y": 76,
+          "scale": {
+            "x": 0.18958333333333335,
+            "y": 0.18958333333333335,
+            "width": 182.00000000000003,
+            "height": 145.60000000000002
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 306,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 22,
+          "text": "<font>Senior Data Scientist<br>@ a genomics start-up<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 908,
+      "y": 444
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -215.66972059256878,
+          "y": 308.3302794074312,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "User Patterns<br>",
+          "size": 105,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "TextBox": {},
+          "x": 249,
+          "y": 114,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Relevant Desires / Concerns<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 288,
+          "y": 169,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Iterate quickly but safely<br><br></li><li>Comparing two iterations of one idea (usually a figure/output)</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 262,
+          "y": 398,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Observed Behaviours / Workarounds<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 295,
+          "y": 455,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Copy whole notebook (either to compare or just in case<br>something breaks)<br><i>nb-Copy1.ipynb, nb-Copy2.ipynb, nb-NEW.ipynb<br></i><br></li><li>Copy paste cell, change, then scroll up and down.&nbsp;<br>Write for loop with each condition coded in to compare.<br><br></li><li>Copy-pasting figures into power-point to save them<br><br></li><li>Commenting out entire cells</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w",
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 405,
+      "y": 613,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -158,
+          "y": 283,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Core Ideas<br>",
+          "size": 105,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "TextBox": {},
+          "x": 318,
+          "y": 230,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<ul><li>Diff-based workflow<br><br></li><li>Output-focused<br><br></li><li>Hierarchical organisation</li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 408,
+      "y": 786
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -97,
+          "y": 283,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Design<br>",
+          "size": 105,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "src": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIg0NLRbmKqqPpbG3M8sit8Ws%2FJupyter-Span%3Fnode-id%3D59%253A2373%26scaling%3Dcontain",
+          "type": "WebFrame",
+          "x": 151,
+          "y": 30,
+          "scale": {
+            "x": 0.9031249999999998,
+            "y": 0.9031249999999998,
+            "width": 866.9999999999999,
+            "height": 693.5999999999999
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 407,
+      "y": 959
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -285,
+          "y": 322,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Implementation<br>",
+          "size": 105,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "TextBox": {},
+          "x": 253,
+          "y": 233,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<ul><li>JupyterLab extension<br><br></li><li>nbdiff for diffing and rendering<br><br></li><li>Each fork stored notebook file</li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 407,
+      "y": 1128
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 194,
+          "y": 99,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Relevant Desires / Concerns<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 233,
+          "y": 154,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Exploring multiple avenues for analysing a data-set<br><br></li><li>Keeping the avenues separate - in terms of state and<br>visually - while also conveying their relationship</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        },
+        {
+          "TextBox": {},
+          "x": 207,
+          "y": 383,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Observed Behaviours / Workarounds<br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 243,
+          "y": 439,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Scrolling up past 20 irrelevant cells to see the previous relevant cell<br><br></li><li>Hidden state bugs, e.g. normalized variable for plotting accidentally<br>used downstream<br><br></li><li>Having 5 notebooks that have many cells in common, but diverge at<br>some stage of the pipeline. Then copy-pasting the figures from each<br>into powerpoint to visualise them together.<br><br></li><li>Writing diagrams, using sticky-notes to explain to someone else the<br>flow of a notebook</li></ul><font></font>",
+          "size": 24,
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "w"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 659,
+      "y": 616,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 254,
+          "y": 215,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<ul><li>Visual flow<br><br></li><li>Private State<br><br></li><li>Output-focused<br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 657,
+      "y": 784
+    },
+    {
+      "components": [
+        {
+          "src": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEAuFLns2qA0UJLwF7MjMCZ9B%2FJupyter-Canvas%3Fnode-id%3D17%253A2%26scaling%3Dcontain",
+          "type": "WebFrame",
+          "x": 52,
+          "y": 5,
+          "scale": {
+            "x": 0.9427083333333333,
+            "y": 0.9427083333333333,
+            "width": 904.9999999999999,
+            "height": 724
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": true,
+      "x": 651,
+      "y": 960
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 3540,
+      "y": 740
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "src": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEAuFLns2qA0UJLwF7MjMCZ9B%2FJupyter-Canvas%3Fnode-id%3D17%253A2%26scaling%3Dcontain",
+        "type": "WebFrame",
+        "x": 52,
+        "y": 5,
+        "scale": {
+          "x": 0.9427083333333333,
+          "y": 0.9427083333333333,
+          "width": 904.9999999999999,
+          "height": 724
+        },
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 11,
+    "selected": false,
+    "active": true,
+    "x": 651,
+    "y": 960
+  },
+  "fileName": "presentation-unnamed",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 1972,
+  "overviewY": 691
+}
