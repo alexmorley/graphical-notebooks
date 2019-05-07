@@ -1,0 +1,4 @@
+- [ ] Outline slides in new html
+- [ ] Find photos and add
+- [ ] Gif or screenshot prototypes.
+- [ ] Format photos

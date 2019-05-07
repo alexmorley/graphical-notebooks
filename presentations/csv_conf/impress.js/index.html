@@ -1,0 +1,215 @@
+<!doctype html>
+
+<!--
+  A presentation done entirely in Markdown, as found in extras/markdown/.
+
+  By: @henrikingo
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Markdown in impress.js | by Henrik Ingo @henrikingo</title>
+
+    <meta name="description" content="Authoring impress.js presentations in Markdown" />
+    <meta name="author" content="Henrik Ingo" />
+    <link rel="stylesheet" href="../../extras/highlight/styles/github.css">
+
+
+    <!--
+      Styles specific for this example presentation. 
+    -->
+    <link href="css/markdown-slides.css" rel="stylesheet" />
+    <link href="css/devopsy.css" rel="stylesheet" />
+    <link href="css/effects.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+  </head>
+
+  <body class="impress-not-supported">
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress" data-transition-duration="1000">
+
+      <div id="markdown" class="step slide" data-rel-x="0" data-rel-y="900">
+
+        <h1> Graphical Notebooks </h1>
+        <h2> Life beyond the computational essay </h2>
+
+        <code>
+          Alex Morley  
+          <br>
+          Mozilla Fellow - Neuroscientist
+        </code>
+
+      </div>
+
+      <div id="story-intro-slide" class="step slide" data-x="1000" data-y="900">
+        <h2> Let's create our own adventure </h2>
+        <div class="notes">
+          Did anyone do any create your own adventure books as a kid? Or maybe you watched bandersnatch on Netflix at the start of the year.
+          Whatever, we're gonna do a democratic one right now.
+        </div>
+      </div>
+
+      <div id="story-part-1" class="step slide" data-x="2000" data-y="900">
+        <p>
+        It's a sunny day in Portland, Oregon. You've just left home, and are walking to give a presentation about some work you are super excited about. The sidewalk you are walking on is tiled. Do you:
+        </p>
+        <ul> <a href='/#story-part-1a'> a. ignore the tiles and continue walking </a> </ul>
+        <ul> <a href='/#story-part-1b'> b. adjust your stride so that you don't step on the edges between tiles </a> </ul>
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="story-part-1a" class="step slide" data-x="3000" data-y="900">
+        <p> As you carry on walking some dude looking at his phone almost walks into, luckily you sidestep and avoid having his coffee poured all over you. The coffee smells pretty good though, and Upper Left Roasters is just round the corner. Do you: </p>
+        <ul> <a href='#story-part-1aa'> a. go grab a coffee to give you energy for your talk </a> </ul>
+        <ul> <a href='#story-part-1ab'> b. carry on walking so that you don't end up late </a> </ul>
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="story-part-1aa" class="step slide" data-x="4000" data-y="900">
+        <p>You pick up the pace and walk briskly to the coffee shop. It's been a while since you got a coffee from here and the coffee at work just doesn't cut it. As you walk in to the shop you see a friend from high-school.</p>
+
+        <p>"Grace! How are you?!" </p>
+
+        <p> It turns out Grace is sad because she's just about to move back to Chicago and the home she found for her cat Tommy can't take her anymore as they've found out their kid has allergies. </p>
+
+        <p> You adopt a cat! </p>
+
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="story-part-1ab" class="step slide" data-x="4000" data-y="1800">
+        <p> You carry on walking in the sun. The air is fresh but the sun keeps you warm even without a sweater. You get to the room where you'll be presenting 20 minutes early but there's someone already waiting here for you. Shit it's Michelle Obama. </p>
+
+        <p> "Hey Jane, I don't have time to stay for your talk but I just had a meeting next door and saw the advertisement for the talk. It sounds super interesting, would you be interesting in collaborating to build an organisation around this?" </p>
+        <div class="notes">
+        </div>
+      </div>
+      <div id="story-part-1b" class="step slide" data-x="3000" data-y="2700">
+        <p> Fuck! </p>
+        <p> You didn't notice the dude looking at his phone who walks into and spills his coffee on your shirt. There's no way you can give your talk looking like this. Do you:  </p>
+        <ul> <a href='#story-part-1ba'> 
+            a. Have a look in the shop round the corner. Your favourite jumper is from there but it's mostly second-hand so they don't always have your size.
+          </a> 
+        </ul>
+        <ul> <a href='#story-part-1bb'>
+            b. Run back home. You should be able to make it there and back in time for your talk.
+          </a>
+        </ul>
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="story-part-1ba" class="step slide" data-x="4000" data-y="2700">
+        <p>
+        You pick up the pace and walk quickly to "Hats 'n Cats", your favourite clothes store. Lucky it's open! You have a quick look around and then stop: no way! they have the perfect shirt and it goes perfectly with this jacket.
+        </p>
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="story-part-1bb" class="step slide" data-x="4000" data-y="3600">
+        <p>
+        You run home. It feels good to get rid of some of this nervous energy even if it's a little warm. You sidestep and dart to keep your feet on the centre of the sidewalk tiles, even when running. You get home with more than 25 minutes before your talk and ... crap you had left your notes on the table! Lucky you came back anyway. 
+        </p>
+        <div class="notes">
+        </div>
+      </div>
+
+      <div id="data-analysis" class="step slide" data-x="4000" data-y="3600">
+        <h1> Essay or choose-your-own-adventure? </h1>
+        <ul>
+          Sometimes we just want to tell a nice story.
+        </ul>
+        <ul>
+          But sometimes we really want our working environment (our screen) to reflect the process we are taking.
+        </ul>
+        <div class="notes">
+          Jupyter notebooks are really great at doing the first. But sometimes they can be a little unweildy.
+
+          - behaviours \amp users
+
+          - design & principles.
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        var enableBwCss = function(){
+          disableDevopsCss();
+          disableEffectsCss();
+        };
+
+var enableDevopsCss = function(){
+  document.body.classList.add("devopsy");
+  disableEffectsCss();
+};
+
+var disableDevopsCss = function(){
+  document.body.classList.remove("devopsy");
+};
+
+var enableEffectsCss = function(){
+  document.body.classList.add("effects");
+  disableDevopsCss();
+};
+
+var disableEffectsCss = function(){
+  document.body.classList.remove("effects");
+};
+      </script>
+
+      <!--
+        <div id="js-slide" class="step slide" data-rotate="0" data-x="4000" data-y="5000">
+        <h1>CSS &amp; JavaScript magic</h1>
+
+        <p>Just to emphasize my point, this last slide allows you to use a JavaScript powered menu to
+        toggle the CSS style:</p>
+
+        <p><a href="#" onclick="enableBwCss();" class="css-menu-bw">Black &amp; white</a>, 
+        <a href="#" onclick="enableDevopsCss();" class="css-menu-devopsy">Devopsy</a>, 
+        <a href="#" onclick="enableEffectsCss();" class="css-menu-effects">Effects overload</a></p>
+
+        <p>Simplicity of Markdown married with full power of Impress.js!</p>
+
+        </div>
+      -->
+
+      <div id="overview" class="step" data-x="5000" data-y="4000" data-scale="10" style="pointer-events: none;" data-rotate="5">
+      </div>
+
+    </div>
+
+    <div id="impress-toolbar"></div>
+    <div id="impress-help"></div>
+
+
+    <!-- Extra modules
+      Load highlight.js, mermaid.js and markdown.js from extras.
+      See also src/plugins/extras/extras.js -->
+      <script type="text/javascript" src="../../extras/highlight/highlight.pack.js"></script>
+      <script type="text/javascript" src="../../extras/mermaid/mermaid.min.js"></script>
+      <script type="text/javascript" src="../../extras/markdown/markdown.js"></script>
+
+      <!--
+        To make all described above really work, you need to include impress.js in the page.
+        You also need to call a `impress().init()` function to initialize impress.js presentation.
+        And you should do it in the end of your document. 
+      -->
+      <script type="text/javascript" src="../../js/impress.js"></script>
+      <script type="text/javascript" src="../../js/impressConsole.js"></script>
+      <script>
+        impress().init();
+impressConsole().init();
+//  impressConsole().open();
+      </script>
+
+  </body>
+</html>
