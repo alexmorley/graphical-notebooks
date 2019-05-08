@@ -1,3 +1,39 @@
 .step .notes {
   display: none;
 }
+
+#lines {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+}
+
+#join {
+  stroke-width: 5pt;
+}
+
+#pattern-iter > h3 {
+  text-align: left;
+}
+
+#lh-point {
+  float: left;
+  width: 35%;
+}
+
+#rh-point {
+  float: right;
+  width: 35%;
+}
+
+#data-analysis {
+  pointer-events: none;
+}
+
+#design-iter, #design-flow, #design-canvas {
+  padding: 0;
+}
+
+video {
+  width: 100%;
+}
